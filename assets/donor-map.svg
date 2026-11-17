@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="570" viewBox="0 0 1600 570" role="img" aria-labelledby="title desc">
+  <title id="title">Wi-Fi donor transplant map</title>
+  <desc id="desc">A D-Link DIR-655 A2 donates an AR5BMB71 Atheros AR5416 Mini PCI card to a Sonos Connect:Amp Gen 2.</desc>
+  <defs>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M64 0H0V64" fill="none" stroke="#13222c" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0 0L12 6L0 12Z" fill="#63f3b1"/>
+    </marker>
+    <style>
+      .mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}.sans{font-family:Inter,Segoe UI,Arial,sans-serif}
+    </style>
+  </defs>
+  <rect width="1600" height="570" fill="#0b1117"/>
+  <rect width="1600" height="570" fill="url(#grid)"/>
+  <rect x="0" y="0" width="12" height="570" fill="#63f3b1"/>
+  <text x="64" y="66" class="mono" font-size="22" fill="#63f3b1">HARDWARE MAP  /  VERIFIED ON ONE UNIT</text>
+  <text x="64" y="126" class="sans" font-size="46" font-weight="700" fill="#f2f6f8">THE WI-FI TRANSPLANT</text>
+
+  <rect x="64" y="174" width="400" height="250" rx="26" fill="#111b24" stroke="#58c7f3" stroke-width="2"/>
+  <text x="96" y="216" class="mono" font-size="18" fill="#58c7f3">01  /  THE DONOR</text>
+  <text x="96" y="266" class="sans" font-size="34" font-weight="700" fill="#f2f6f8">D-Link DIR-655</text>
+  <text x="96" y="310" class="sans" font-size="27" fill="#f2f6f8">Hardware revision A2</text>
+  <text x="96" y="354" class="mono" font-size="19" fill="#9aaab6">REVISION MATTERS</text>
+  <text x="96" y="390" class="sans" font-size="20" fill="#9aaab6">Not every DIR-655 is this donor.</text>
+
+  <line x1="486" y1="299" x2="552" y2="299" stroke="#63f3b1" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <rect x="578" y="154" width="450" height="290" rx="26" fill="#111b24" stroke="#63f3b1" stroke-width="3"/>
+  <text x="610" y="198" class="mono" font-size="18" fill="#63f3b1">02  /  THE TRANSPLANT</text>
+  <text x="610" y="250" class="sans" font-size="38" font-weight="700" fill="#f2f6f8">Atheros AR5BMB71</text>
+  <text x="610" y="297" class="sans" font-size="27" fill="#f2f6f8">AR5416-AC1A</text>
+  <text x="610" y="342" class="mono" font-size="20" fill="#58c7f3">FULL-SIZE MINI PCI</text>
+  <text x="610" y="380" class="mono" font-size="20" fill="#ffbd66">3 × U.FL ANTENNA PORTS</text>
+  <text x="610" y="416" class="sans" font-size="20" fill="#9aaab6">U.FL #2 repaired after extraction.</text>
+
+  <line x1="1050" y1="299" x2="1116" y2="299" stroke="#63f3b1" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <rect x="1142" y="174" width="394" height="250" rx="26" fill="#111b24" stroke="#63f3b1" stroke-width="2"/>
+  <text x="1174" y="216" class="mono" font-size="18" fill="#63f3b1">03  /  THE PATIENT</text>
+  <text x="1174" y="264" class="sans" font-size="31" font-weight="700" fill="#f2f6f8">Sonos Connect:Amp</text>
+  <text x="1174" y="306" class="sans" font-size="27" fill="#f2f6f8">Gen 2 / S2</text>
+  <text x="1174" y="354" class="mono" font-size="20" fill="#63f3b1">WI-FI: CONNECTED</text>
+  <text x="1174" y="390" class="sans" font-size="20" fill="#9aaab6">Original socket. Three antennas.</text>
+
+  <rect x="64" y="486" width="1472" height="1" fill="#29404e"/>
+  <text x="64" y="532" class="mono" font-size="20" fill="#9aaab6">MATCH THE CHIPSET, CONNECTOR AND RF WIRING — NOT JUST THE MODEL NUMBER.</text>
+</svg>
